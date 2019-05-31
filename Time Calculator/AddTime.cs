@@ -11,7 +11,7 @@
         }
 
         /// <summary>
-        /// AddTime
+        /// Add time
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -23,6 +23,11 @@
             calculateButton.Text = output;
         }
 
+        /// <summary>
+        /// Subtract time
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void subtractButton_Click(object sender, EventArgs e)
         {
             new SubtractTime().Show();
