@@ -10,6 +10,11 @@
             InitializeComponent();
         }
 
+        /// <summary>
+        /// AddTime
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void calculateButton_Click(object sender, EventArgs e)
         {
             var time = DateTime.Parse(enterTimeTextBox.Text);
