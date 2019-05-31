@@ -13,8 +13,8 @@
         /// <summary>
         /// Add time
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// <param name="sender">sender</param>
+        /// <param name="e">event</param>
         private void calculateButton_Click(object sender, EventArgs e)
         {
             var time = DateTime.Parse(enterTimeTextBox.Text);
