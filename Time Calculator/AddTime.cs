@@ -26,8 +26,8 @@
         /// <summary>
         /// Subtract time
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// <param name="sender">sender</param>
+        /// <param name="e">event</param>
         private void subtractButton_Click(object sender, EventArgs e)
         {
             new SubtractTime().Show();
