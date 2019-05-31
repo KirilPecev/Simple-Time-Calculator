@@ -19,7 +19,7 @@
         {
             var time = DateTime.Parse(enterTimeTextBox.Text);
             var timeToAdd = DateTime.Parse(addTimeTextBox.Text);
-            string output = String.Format("{0:HH:mm}",time.Add(timeToAdd.TimeOfDay));
+            string output = String.Format("{0:HH:mm}", time.Add(timeToAdd.TimeOfDay));
             calculateButton.Text = output;
         }
 
@@ -27,8 +27,8 @@
         /// Subtract time
         /// </summary>
 <<<<<<< HEAD
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+        /// <param name="sender">sender</param>
+        /// <param name="e">event</param>
 =======
         /// <param name="sender">sender</param>
         /// <param name="e">event</param>
