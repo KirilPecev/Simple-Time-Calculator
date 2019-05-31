@@ -18,6 +18,11 @@
             calculateButton.Text = output;
         }
 
+        /// <summary>
+        /// Go to Add Form
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void subtractButton_Click(object sender, EventArgs e)
         {
             new AddTime().Show();
